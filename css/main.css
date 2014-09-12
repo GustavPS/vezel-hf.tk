@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../bilder/background.jpg);
+    height: 100%;
+}
+
+#container {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+#title h1 {
+    position: relative;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: relative;
+    top: 54px;
+    left: 200px;
+    margin-right: 300px;
+    display: table;
+    float: left;
+}
+
+#container .menu a h2 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 23px;
+}
